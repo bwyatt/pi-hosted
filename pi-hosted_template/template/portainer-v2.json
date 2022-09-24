@@ -1779,6 +1779,23 @@
 		},
 		{
 			"categories": [
+				"Proxy"
+			],
+			"description": "Simple reverse proxy that adds Access-Control-Allow-Origin headers to responses",
+			"image": "imjacobclark/cors-container:latest",
+			"logo": "",
+			"name": "cors-container",
+			"platform": "linux",
+			"ports": [
+				"3000:3000/tcp"
+			],
+			"restart_policy": "unless-stopped",
+			"title": "CORS-Container",
+			"type": 1,
+			"note": "<h3>Template created by Pi-Hosted Series</h3><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://hub.docker.com/r/imjacobclark/cors-container\" target=\"_blank\">https://hub.docker.com/r/imjacobclark/cors-container</a>"
+		},
+		{
+			"categories": [
 				"Other",
 				"Tools"
 			],
